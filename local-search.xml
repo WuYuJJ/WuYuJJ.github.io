@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>欧拉角速率和机体角速度的关系推导</title>
+    <link href="/2022/10/06/%E6%AC%A7%E6%8B%89%E8%A7%92%E9%80%9F%E7%8E%87%E5%92%8C%E6%9C%BA%E4%BD%93%E8%A7%92%E9%80%9F%E5%BA%A6%E7%9A%84%E5%85%B3%E7%B3%BB%E6%8E%A8%E5%AF%BC/"/>
+    <url>/2022/10/06/%E6%AC%A7%E6%8B%89%E8%A7%92%E9%80%9F%E7%8E%87%E5%92%8C%E6%9C%BA%E4%BD%93%E8%A7%92%E9%80%9F%E5%BA%A6%E7%9A%84%E5%85%B3%E7%B3%BB%E6%8E%A8%E5%AF%BC/</url>
+    
+    <content type="html"><![CDATA[<p><a href="https://zinghd.gitee.io/kinematics-euler-angle-model/">https://zinghd.gitee.io/kinematics-euler-angle-model/</a><br>这篇文章写的太好了，悟了悟了，赞一个</p><p><strong>刚体运动学模型</strong>研究的是与力无关的过程，只研究位置、速度、姿态、角速度等参量，以质点为模型。<br><strong>刚体动力学模型</strong>要研究物体的受力，比如<strong>F&#x3D;ma</strong>和<strong>欧拉方程</strong>属于动力学模型。</p><p>现介绍一下<strong>基于欧拉角的运动学模型</strong>：<br>看那篇文章吧，写的很好。一定要拜读一下！</p><p>很直白的讲了欧拉角速率到机体加速度的变换过程，<br>并且对该运动模型，一阶差分离散化，得到离散的欧拉角速率与机体角速度递推公式。  </p><p>只需给定三个姿态角初值，机载 MEMS 陀螺仪实时测出机体坐标系的三轴角速率，就可通过式递推计算得到 k 时刻的欧拉姿态角。<br>可以利用该运动模型实现机载 MEMS 陀螺仪的姿态估计。</p><p>同时，可以看到刚体的运动学模型通常用在迭代更新上，是不是突然想到卡尔曼里通常也会有模型更新的概念。所以可以进一步用到卡尔曼滤波姿态估计里去。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>美化github个人主页</title>
     <link href="/2022/10/06/%E7%BE%8E%E5%8C%96github%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/"/>
     <url>/2022/10/06/%E7%BE%8E%E5%8C%96github%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</url>
